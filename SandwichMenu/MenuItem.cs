@@ -8,7 +8,7 @@ namespace SandwichMenu
 {
     public class MenuItem
     {
-        public Random Randomizer = new Random();
+        public static Random Randomizer = new Random();
 
         public string[] Proteins = { "Wołowina", "Salami", "Indyk", "Szynka", "Pastrami", "Tofu" };
         public string[] Condiments = { "musztarda żółta", "musztarda brązowa", "musztarda miodowa", "majonez", "przyprawy", "sos francuski" };
